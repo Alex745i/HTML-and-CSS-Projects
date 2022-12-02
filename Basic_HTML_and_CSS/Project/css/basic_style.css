@@ -27,24 +27,14 @@ h1 {
               height: 100px;
               margin:5px;
               border: 1px solid black;
-              border: radius 25%;
+              border-radius: 25%;
               cursor: pointer;     
          }
 
          /*--------------------------------------------------
          SELECT ALL SQUARES IN THE ARRAY
          ----------------------------------------------------*/
-        .container .squares:nthchild(-n+4) {
-            background-image: url("../images/icons/smileyface2.png");
-            color: #fff;
-            float: left;
-            width: 100px;
-            height: 100px;
-            margin: 5px;
-            border: 1px solid black;
-            border-radius: 25%;
-            cursor: pointer;
-        }
+
 
         /*----------------------------------------------------------
         SELECT ALL SQUARES PARAPGRAPHS IN THE ARRAY
@@ -99,7 +89,7 @@ h1 {
         --------------------------------------------*/
         @keyframes race  {
             0%, 100%  {
-                transform: translateY (0px);
+                transform: translateY(0px);
                 background-image: url("../images/icons/smileyface1.png");
             }
             50% {
