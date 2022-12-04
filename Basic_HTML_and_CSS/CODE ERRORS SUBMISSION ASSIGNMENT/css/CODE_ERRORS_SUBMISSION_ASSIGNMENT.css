@@ -1,0 +1,42 @@
+h1 {
+    margin: 10px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+body {
+    font-size: 14px;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.42857143;
+    color: darkblue;
+    background-color: lightblue;
+}
+
+p {
+    margin: 10px;
+    font-size: 14px;
+    font: bold;
+}
+
+h3 {
+    text-align: center;
+}
+
+img {
+    width: 600px;
+    height: 300px
+}
+
+img {
+    
+     color: red;
+     border-style: dashed;
+     border-width: 2px;
+}
+
+iframe {
+    margin: 10px;
+}
