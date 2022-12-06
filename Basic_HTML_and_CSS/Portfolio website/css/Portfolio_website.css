@@ -1,0 +1,220 @@
+/*----------navbar-------*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+/*----------end navbar-------*/
+
+/*---------  Background color  --------*/
+
+body {
+    background-color: rgba(71, 76, 77, 0.442);
+  }
+ 
+  /*---------  Background color  --------*/
+
+    /*---------  text  --------*/
+    
+    h1 {
+        font-size: medium;
+        text-align: left;
+        font-family: "times new roman";
+        color: #1a1a1a; 
+        
+      }
+      
+      h2 {
+        text-align: center;
+      }
+      
+      h3 {
+        text-align: left;
+      }
+
+
+       /*--------- end  text  --------*/
+
+
+                                                 /*---------  image  --------*/
+
+
+        img {
+
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;           
+            border-color: rgb(0, 0, 0);
+            border-style: solid;
+            border-width: 5px;
+          }
+          
+          img:hover {opacity: 0.7;}
+          
+          /* The Modal (background) */
+          .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            padding-top: 100px; /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+          }
+          
+          /* Modal Content (Image) */
+          .modal-content {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+          }
+          
+          /* Caption of Modal Image (Image Text) - Same Width as the Image */
+          #caption {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+            text-align: center;
+            color: #ccc;
+            padding: 10px 0;
+            height: 150px;
+          }
+          
+          /* Add Animation - Zoom in the Modal */
+          .modal-content, #caption {
+            animation-name: zoom;
+            animation-duration: 0.6s;
+          }
+          
+          @keyframes zoom {
+            from {transform:scale(0)}
+            to {transform:scale(1)}
+          }
+          
+          /* The Close Button */
+          .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+          }
+          
+          .close:hover,
+          .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
+          }
+          
+          /* 100% Image Width on Smaller Screens */
+          @media only screen and (max-width: 700px){
+            .modal-content {
+              width: 100%;
+            }
+          }
+        
+                                             /*---------  end image  --------*/
+
+
+
+
+       /*---------  end response form  --------*/
+
+
+       * {
+        box-sizing: border-box inline;
+    
+      }
+      
+      input[type=text], select, textarea {
+        width: 50%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+      }
+      
+      label {
+        font-size: 10px;
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+      }
+      
+      input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+      
+      .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+      }
+      
+      .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+      form {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 20px;
+    }
+    
+
+
+
+         /*---------  end response form  --------*/
